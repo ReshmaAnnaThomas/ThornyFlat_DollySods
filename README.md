@@ -6,7 +6,7 @@ Submit_script.sh will submit a slurm job to a GPU node.
 
 There are several singularity containers available on Thorny Flats and Dolly Sods. On Dolly Sods you also have `/shared/containers/tpp/tpp_20231212.sif` container. 
 
-Both these containers `your` package and `Fetch`.
+Both these containers have `your` package and `Fetch`.
 
 To run `your` or `Fetch` on the command line:
 
