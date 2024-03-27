@@ -1,4 +1,4 @@
-# Steps to run heimdall+fetch of Thorny Flats or Dolly Sods.
+# Steps to run heimdall+fetch on WVU's Thorny Flats or Dolly Sods.
 
 Copy and paste the `submit_script.sh`, edit the lines and submit with `sbatch submit_script.sh`. May you find lots of FRBs! 
 
