@@ -10,13 +10,13 @@ Both these containers `your` package and `Fetch`.
 
 To run `your` or `Fetch` on the command line:
 
-On TF, do `qsub -I -q comm_gpu_inter -l nodes=1:ppn=1:gpus=3` (change the no: of gPUs and node numbers as per your wish):
+  On TF, do `qsub -I -q comm_gpu_inter -l nodes=1:ppn=1:gpus=3` (change the no: of gPUs and node numbers as per your wish):
 
-On DS, `ssh <somenode>`,:
+  On DS, `ssh <somenode>`,:
 
-Then run: `singualrity shell --nv <path_to_your_container>`
+  Then run: `singualrity shell --nv <path_to_your_container>`
 
-Now you are in the shell. Run your commands now!
+  Now you are in the shell. Run your commands now!
 
 # Step-by-step procedure to run Heimdall+Fetch pipeline using `your` 
 
