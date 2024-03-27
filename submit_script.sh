@@ -13,5 +13,7 @@
 #SBATCH --mail-user=<your_email_id>
 #SBATCH --mail-type BEGIN,END,FAIL
 
+module load singularity
+
 
 singularity exec --nv /shared/containers/radio_transients/radio_transients.sif `your code here`
