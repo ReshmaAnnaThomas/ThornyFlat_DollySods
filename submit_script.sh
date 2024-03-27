@@ -14,4 +14,4 @@
 #SBATCH --mail-type BEGIN,END,FAIL
 
 
-singularity exec --nv /shared/containers/radio_transients/radio_transients.sif <your code here>
+singularity exec --nv /shared/containers/radio_transients/radio_transients.sif `your code here`
