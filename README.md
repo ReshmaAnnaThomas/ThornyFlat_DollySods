@@ -18,7 +18,7 @@ Then run: `singualrity shell --nv <path_to_your_container>`
 
 Now you are in the shell. Run your commands now!
 
-# Step-by-step procedure to run Heimdall+Fetch pipeline usimg `your` 
+# Step-by-step procedure to run Heimdall+Fetch pipeline using `your` 
 
 1. `your_writer.py` can convert files from one format to another. This is optional. `your_rfimask.py` will give a mask of bad channels which you can use in the subsequent steps.
 2. `your_heimdall.py` runs heimdall on the input file
